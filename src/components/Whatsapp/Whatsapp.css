@@ -1,0 +1,32 @@
+.wa-splmn-chat-btn-offset {
+  bottom: 40px;
+  z-index: 99999 !important;
+}
+
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#wa-chat-btn-root {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+}
+
+.wa-chat-btn-fixed img {
+  background-color: transparent;
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
+}
+
+.container1:hover .wa-chat-btn-fixed img {
+  opacity: 1; 
+  display: inline;
+}
+.wa-chat-btn-icon-cta-big {
+  width: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+}

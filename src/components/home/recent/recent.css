@@ -1,0 +1,47 @@
+.recent .text {
+  padding: 30px;
+}
+.recent .category span {
+  padding: 4px 15px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-block;
+}
+.recent .category i {
+  font-size: 20px;
+  color: #bec7d8;
+}
+.recent p {
+  color: #72809d;
+}
+.recent .button {
+  border-top: 1px solid #e4e8f3;
+  padding: 10px 30px;
+}
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  /* Add any other styles you need for the container */
+}
+
+.box {
+  flex: 1 1 30%; /* Adjust the value as needed */
+  /* Add any other styles you need for the box */
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for smaller screens */
+  .box {
+    flex-basis: 45%; /* Adjust the value as needed for smaller screens */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Styles for even smaller screens */
+  .box {
+    flex-basis: 100%; /* Adjust the value as needed for small mobile screens */
+  }
+}
